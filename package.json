@@ -1,0 +1,24 @@
+{
+  "name": "520tolllambda",
+  "version": "0.0.1",
+  "description": "Checks the price of the 520 bridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ronbarrantes",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.5.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronbarrantes/520TollLambda.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ronbarrantes/520TollLambda/issues"
+  },
+  "homepage": "https://github.com/ronbarrantes/520TollLambda#readme"
+}

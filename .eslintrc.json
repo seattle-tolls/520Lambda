@@ -1,0 +1,58 @@
+{
+  "rules": {
+    "react/prop-types": [
+      0
+    ],
+    "space-in-parens": ["warn",  "never"],
+    "new-cap": ["error",  
+      { "capIsNewExceptions": [ "Record" ] }
+    ],  
+    "camelcase": ["warn"],
+    "no-console": "off",
+    "quotes": [
+      "error", "single", 
+      { "allowTemplateLiterals": true }
+    ],
+    "comma-dangle": ["error", "always-multiline"], 
+    "object-curly-spacing":["warn", "always"],
+    "curly": "off",
+    "no-unused-vars": "off",
+    "indent": [ "error", 2, 
+      { "SwitchCase": 1 } 
+    ],
+    "switch-colon-spacing": ["error", 
+    { "after": true, "before": false }
+    ],
+    "no-trailing-spaces": "error",
+    "space-before-function-paren": ["error", "never"],
+    "no-whitespace-before-property": 2,
+    "semi": ["error", "never"]
+
+  },
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "module": true,
+      "jsx": true,
+      "spread": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true,
+    "browser": true
+  },
+  "globals": {
+    "__API_URL__": false,
+    "__TITLE__": false,
+    "__DEBUG__": false
+  },
+  "extends": [
+    "eslint:recommended"
+  ]
+}
